@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0F172A"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(75,111,212,0.12)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Glow blobs -->
+  <ellipse cx="200" cy="150" rx="320" ry="220" fill="rgba(75,111,212,0.18)"/>
+  <ellipse cx="1050" cy="500" rx="250" ry="180" fill="rgba(99,211,166,0.12)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="200" width="6" height="230" rx="3" fill="#4B6FD4"/>
+
+  <!-- Badge -->
+  <rect x="104" y="200" width="160" height="34" rx="8" fill="rgba(75,111,212,0.25)" stroke="rgba(75,111,212,0.5)" stroke-width="1"/>
+  <text x="184" y="222" font-size="14" text-anchor="middle" fill="#93B4FF" font-family="system-ui, -apple-system, sans-serif" font-weight="600" letter-spacing="1.5">BREVET 3e</text>
+
+  <!-- Main title M3 -->
+  <text x="104" y="330" font-size="130" fill="white" font-family="system-ui, -apple-system, sans-serif" font-weight="800" letter-spacing="-4">M3</text>
+
+  <!-- Subtitle -->
+  <text x="104" y="380" font-size="28" fill="rgba(255,255,255,0.55)" font-family="system-ui, -apple-system, sans-serif" font-weight="400">Guide de révision interactif · Géométrie</text>
+
+  <!-- Feature chips -->
+  <rect x="104" y="415" width="165" height="36" rx="18" fill="rgba(75,111,212,0.2)" stroke="rgba(75,111,212,0.4)" stroke-width="1"/>
+  <text x="186" y="438" font-size="14" text-anchor="middle" fill="#93B4FF" font-family="system-ui, sans-serif" font-weight="500">📐 Aires &amp; Volumes</text>
+
+  <rect x="282" y="415" width="175" height="36" rx="18" fill="rgba(75,111,212,0.2)" stroke="rgba(75,111,212,0.4)" stroke-width="1"/>
+  <text x="369" y="438" font-size="14" text-anchor="middle" fill="#93B4FF" font-family="system-ui, sans-serif" font-weight="500">💡 Indices guidés</text>
+
+  <rect x="470" y="415" width="195" height="36" rx="18" fill="rgba(75,111,212,0.2)" stroke="rgba(75,111,212,0.4)" stroke-width="1"/>
+  <text x="567" y="438" font-size="14" text-anchor="middle" fill="#93B4FF" font-family="system-ui, sans-serif" font-weight="500">✅ Corrections détaillées</text>
+
+  <!-- URL -->
+  <text x="104" y="560" font-size="20" fill="rgba(255,255,255,0.35)" font-family="system-ui, sans-serif" font-weight="400">m3.tfq.one</text>
+
+  <!-- Right decoration: large M3 watermark -->
+  <text x="920" y="480" font-size="380" fill="rgba(75,111,212,0.07)" font-family="system-ui, sans-serif" font-weight="800" letter-spacing="-12">M3</text>
+</svg>
